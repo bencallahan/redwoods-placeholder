@@ -1,15 +1,22 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 800
 
-.eb-garamond-<uniquifier> {
+/* .eb-garamond-<uniquifier> {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-}
+} */
+
+.kreon-<uniquifier> {
+    font-family: "Kreon", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
 
 body {
-    font-family: "EB Garamond", serif;
+    font-family: "Kreon", serif;
     padding: 0px;
     background-color: #F8F4F0;
     color: #3E0D12;
@@ -45,6 +52,7 @@ p {
     letter-spacing: 0.02rem;
     font-weight: 400;
     line-height: 24px;
+    font-weight: 300;
 }
 
 p strong {
@@ -142,7 +150,7 @@ header {
 
 .about-intro p {
     font-size: 24px;
-    line-height: 2.5rem;
+    line-height: 2.1rem;
     margin-top: 20px;
 }
 
