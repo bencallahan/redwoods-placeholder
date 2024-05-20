@@ -60,7 +60,7 @@ hr {
 
 header button,
 .hero button {
-    border-radius: 32px;
+    border-radius: 12px;
     padding: 12px 32px;
     font-size: 20px;
     font-weight: 600;
@@ -132,7 +132,7 @@ header {
     right: 0;
     top: 0;
     height: 800px;
-    background-color: #345145;
+    background-color: #415C51;
     z-index: -1000;
 }
 
@@ -191,7 +191,7 @@ header {
 .values button {
     color: #3E0D12;
     background-color: #F8F4F0;
-    border-radius: 32px;
+    border-radius: 12px;
     padding: 12px 32px;
     font-size: 20px;
     font-weight: 600;
@@ -300,6 +300,9 @@ header {
     .activities {
         margin-bottom: 50px;
     }
+    .hero-image {
+        display: none;
+    }
 }
 
 @media (max-width: 575px) {
@@ -307,5 +310,6 @@ header {
         width: 20%;
         margin-bottom: 10px;
     }
+   
 
 }
