@@ -81,6 +81,9 @@ header button:hover,
     display: none;
 }
 
+.hero-image img {
+    width: 100%;
+}
 
 header {
     padding: 40px 0px 40px 0px;
