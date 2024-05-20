@@ -121,7 +121,8 @@ header {
 .about {
     height: 100px;
     width: 100%;
-    background-image: url("../images/header-wave.svg"), url("../images/shape-bg.svg");
+    background-image: url("../images/header-wave.svg");
+    /* , url("../images/shape-bg.svg"); */
     background-repeat: no-repeat;
     background-size: 100%, cover;
     height: auto;
@@ -206,7 +207,7 @@ header {
 }
 
 .values button:hover {
-    background-color: #BDC696;
+    background-color: #BCCEC7;
 }
 
 
@@ -233,7 +234,8 @@ header {
     .about {
         height: 100px;
         width: 100%;
-        background-image: url("../images/header-wave.svg"), url("../images/shape-bg.svg");
+        background-image: url("../images/header-wave.svg");
+        /* , url("../images/shape-bg.svg"); */
         background-repeat: no-repeat;
         background-size: auto, auto;
         height: auto;
